@@ -23,7 +23,7 @@ const inter = Inter({ subsets: ['latin'] })
 export default function RootLayout({
   children,
   session
-}) {
+} : any) {
   const pathname = usePathname();
   return (
     <html lang="de">
